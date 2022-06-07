@@ -1,0 +1,76 @@
+
+
+body {
+   font-family: Arial, sans-serif; 
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    
+}
+
+p {
+    font-size: 20px;
+}
+
+.column {
+    float:left;
+    width: 33%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+#aboutMe {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+
+}
+
+#mainPic {
+    border-radius: 50%;
+    width: 275px;
+    height: 275px;
+    margin-left: 1000px;
+    margin-top: -20%;
+}
+
+
+#headerText {
+    left: 1%; 
+    top: 45px; 
+    width: 50%; 
+    height: auto; 
+    margin-left: 5%;
+}
+
+#mainHeader {
+    background-color: aliceblue;
+    margin-bottom: -50px;
+    margin-top: 0%;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+
+
+
+
